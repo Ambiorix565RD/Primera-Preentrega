@@ -1,0 +1,281 @@
+
+/*Reiniciar los margenes*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*html size*/
+html{
+    font-size: 16px;
+}
+
+/*Agregar fuente*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+@font-face {
+    font-family: 'Andreas';
+    src: url(../assets/fonts/Andreas.ttf);
+}
+
+/*Header*/
+header{
+    padding: 20px;
+    background-color: #505050;
+    position: relative;
+}   
+
+
+/*imagen logo*/
+header img{
+    width: 5rem;
+    position: relative;
+    left: 5%;
+    border-radius: 5px;
+}
+
+/*Posicionar el Nav*/
+header nav{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+/*Quitar viñetas*/
+header nav ul{
+    list-style-type: none;
+}
+
+/*posicionar el nav en linea*/
+header nav ul li{
+    display: inline-block;
+    padding-left: 50px;
+    margin-top: 30px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #fafafa;
+    font-family: 'Andreas';
+    font-size: larger;
+}
+
+/*Main index*/
+/*imagen contenido*/
+.main-index section div a img{
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.75);
+} 
+/*Titulo debajo de imagen*/
+.main-index section div{ 
+    text-align: center;
+    font-family: 'Andreas';
+    font-size: 30px;
+    
+}
+
+/*parrafo debajo de titulo*/
+.main-texto{
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 5px;
+    margin-top: 50px;
+    margin-bottom: 300px;
+    box-sizing:content-box;
+    border-radius: 5px;
+    
+    padding: 100px;
+}
+
+/*menu pagina*/
+.main-index section .card a{
+    width: 380px;
+    height: 430px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.75);
+    display: inline-block;
+}
+
+.main-index section .card img{
+    width: 100%;
+    padding-top: 20px;
+
+}
+
+.main-index section div p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px;  
+}
+
+.main-index section .card div p{
+    text-align: center;
+}
+
+/*video index*/
+.video-index{
+    padding-top: 100px; 
+    font-style: oblique;
+}
+
+/*footer*/
+
+.footer-index{
+    text-align: center;
+    background-color: #505050;
+}
+
+.footer-index section{
+    margin: 10px;
+}
+
+.footer-index section p{
+    color: #fafafa;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-index section ul{
+    list-style-type: none;
+
+}
+
+.footer-index section .card img{
+
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.75);
+    display: inline-block;
+}
+
+
+/*Main mi-trayectoria*/
+
+.main-index div h1{
+    font-size: bold;
+    margin-top: 60px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: 'Andreas';
+}
+
+.main-index section div img{
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.75);
+}
+
+
+.main-index section .div-Trayectoria p{
+
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 300px;
+    padding-bottom: 300px;
+    margin-right: 280px;
+}
+
+/*Main Academia*/
+#academia{
+    color: black;
+    font-size: x-large;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+#academia-2{
+    font-size: 50px;
+}
+
+/*Main Tienda*/
+
+.main-index section .div-tienda img{
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    margin: 100px 150px 15px 150px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.75);
+}
+
+.main-index section .div-academia p{
+
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 300px;
+    padding-bottom: 35rem;
+    margin-right: 280px;
+}
+#espacio-abajo{
+    margin-bottom: 100px;
+}
+
+/*Main Contacto*/
+
+.main-index section .div-contacto-1 h1{
+    font-size: bold;
+    margin-top: 60px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: 'Andreas';
+}
+
+.main-index section .div-contacto p{
+
+    text-align: center;
+    font-family: sans-serif;
+    font-size: medium;
+    margin: 5px 5px 100px 5px;
+}
+.main-index section .formulario label{
+
+    text-align: center;
+    font-family: Helvetica;
+    font-size: medium;
+    display: block;
+    margin: 10px 5px 5px 5px;
+}
+.main-index section .formulario input{
+    text-align: center;
+
+    font-size: large;
+}
+
+.main-index section .formulario textarea{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.main-index section .formulario h1{
+
+    text-align: center;
+    background-color: #0e4a84;
+    color: #fafafa;
+    font-family: Arial;
+    font-size: 25px;
+    display: inline-block;
+}
+
+
